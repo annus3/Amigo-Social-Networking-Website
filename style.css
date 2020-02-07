@@ -1,0 +1,81 @@
+body{
+	height: 800px;
+	margin: 0px;
+	padding: 0px;
+	background-image:url(svisayushchie_formy_na_serom_fone-1920x1080.png);
+
+	background-position: center;
+	font-family: sans-serif;
+	
+}
+.loginbox{
+	width: 320px;
+	height: 560px;
+	border-radius: 50px;
+	background:#6495ED;
+	color:white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 50px;
+	
+}
+.avatar{
+	width: 120px;
+	height: 120px;
+	border-radius: 12%;
+	position: absolute;
+	top: -50px;
+	left: calc(46% - 50px);
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.loginbox input{
+	width: 200px;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	color:white;
+	font-size: 19px;
+}
+.loginbox input[type="button"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background-color:cadetblue;
+	font-size: 20px;
+	border-radius:20px;
+	
+}
+.loginbox input[type="submit"]:hover
+{
+cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: blanchedalmond;
+}
+.loginbox a:hover{
+	color: chocolate;
+}

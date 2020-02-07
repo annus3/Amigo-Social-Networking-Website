@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>
+			login form
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+	function log()
+		{
+			var id=document.getElementById("usr").value;
+			var psd=document.getElementById("pwd").value;
+			if(id=="annus@gmail.com" && psd=="123")
+				{
+				   window.location="homepage.html";
+					return true;
+				}
+			else{
+				window.alert("Incorrect Username or Password");
+				return false;
+			    }
+		}
+        
+		</script>
+	</head>
+	<body>
+		<div class="loginbox">
+			<img src="amigobest.png" class="avatar"> 
+			<h1>AMIGO</h1>
+			<form method="POST" action="homepage.html" onsubmit="return log()">
+				<p>Username</p>
+				<input type="email" name="" id="usr"placeholder=" Enter Username ">
+				<p>Password</p>
+				<input type="password" name="" id="pwd"placeholder="Enter Password"><br>
+				<input type="submit" value="Login"/><br>
+				<a href="#">Forgot Password?</a><br>
+				<a href="signup.html">Create an account ?</a>
+			</form>
+		</div>
+	</body>
+</html>

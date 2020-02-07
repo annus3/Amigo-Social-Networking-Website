@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>
+			login form
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script>
+			{
+                function signup()
+			{
+				if(document.getElementById("pd1").value==document.getElementById("pd2").value)
+					{
+						window.location="login.html";
+						return true;
+					}
+				else 
+					{
+                        window.alert("Password Didn't Match");
+						return false;
+					}
+			}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="loginbox">
+			<img src="amigobest.png" class="avatar"> 
+			<h1>AMIGO</h1>
+			<h3 align="center">Register</h3>
+			<form action="login.html" method="POST" onsubmit="return signup()">
+			<form action="login.html" method="POST" onsubmit="return signup()">
+				<p>First Name</p>
+				<input type="text" name="" placeholder=" Firstname ">
+                <p>Last Name</p>
+                <input type="text" name="" placeholder=" Lastname">
+				<p>Email</p>
+				<input type="email" name="" placeholder=" Email ">
+					
+				<p>Password</p>
+				<input type="password" name="" placeholder="Enter Password" id="pd1">
+				<p>Re-Enter Password</p>
+				<input type="password" name="" placeholder="Enter  Confirm Password" id="pd2"><br>
+				
+				<input type="submit"  value="Sign Up" />
+			</form>
+		</div>
+	</body>
+</html>
