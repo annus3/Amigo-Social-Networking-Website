@@ -30,9 +30,7 @@ The project comprises several HTML files, each serving different purposes:
 To use this project, follow these steps:
 1. Clone the repository: `git clone https://github.com/annus3/Amigo-Social-Networking-Website.git`
 2. Open the `index.html` file in a web browser to access the login page.
-3. Use the following credentials to log in:
-   - **Username:** annus@gmail.com
-   - **Password:** 123
+3. Open the login.html file to access the username and password.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, follow these steps:
